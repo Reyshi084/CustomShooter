@@ -6427,7 +6427,7 @@ RectTransform:
   m_GameObject: {fileID: 1072176307}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 1.5000001, z: 1}
+  m_LocalScale: {x: 1, y: 0.7, z: 1}
   m_Children: []
   m_Father: {fileID: 2117690718}
   m_RootOrder: 3
@@ -6435,7 +6435,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 130}
-  m_SizeDelta: {x: 250, y: 200}
+  m_SizeDelta: {x: 500, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1072176309
 MonoBehaviour:
@@ -6458,7 +6458,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 797dc980b8ebf074fa115e2c7268d64c, type: 3}
-    m_FontSize: 30
+    m_FontSize: 50
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -8016,10 +8016,10 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0
-    y: 0.118890256
-    width: 1
-    height: 0.7622195
+    x: 0.00006881356
+    y: 0
+    width: 0.9998624
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
@@ -10165,7 +10165,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\u73FE\u5728\u306E EFFECT"
+  m_Text: "\u2193EFFECT\u3092\u9078\u629E\u2193"
 --- !u!222 &1766499890
 CanvasRenderer:
   m_ObjectHideFlags: 0

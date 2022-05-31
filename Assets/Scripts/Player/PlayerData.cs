@@ -528,9 +528,9 @@ public static class PlayerData
             STAGE++;
         }
         EXP += exp;
-        if(EXP >= 9999999)
+        if(EXP >= 999999)
         {
-            EXP = 9999999;
+            EXP = 999999;
         }
         CheckLevelUp();
         SavePlayerData();

@@ -30,6 +30,7 @@ public class GameOptionButtonManager : MonoBehaviour
         Time.timeScale = 0;
         _filter.SetActive(true);
         _poseWindow.SetActive(true);
+        _poseWindow.transform.localScale = new Vector3(0, 0);
 
         for(int i = 0; i < 20; i++)
         {

@@ -106,7 +106,7 @@ public static class EnemyData
         },
         new Enemy[] // 2-3
         {
-            new Enemy("トライアングル(S)", Utils.EnemyType.Triangle, 20, 3, 0, 5f, 5f, 1f, Utils.Effect.Stream, 7f, 0, 0.5f, Utils.EnemyMoveType.Stay,
+            new Enemy("トライアングル(S)", Utils.EnemyType.Triangle, 20, 3, 0, 5f, 5f, 1f, Utils.Effect.Stream, 7f, 0, 0.6f, Utils.EnemyMoveType.Stay,
                 1, 33, 0.12f, 1),
             new Enemy("スクエア(S)", Utils.EnemyType.Square, 10, 1, 7, 12.0f, 0, 1f,
                 1, 20, 2),
@@ -124,7 +124,7 @@ public static class EnemyData
                 1, 100, 0.3f, 1),
             new Enemy("トライアングル(S)", Utils.EnemyType.Triangle, 42, 5, 0, 12f, 0f, 1f, Utils.Effect.Fire, 2f, 1, 0, 7.0f, Utils.EnemyMoveType.Stay,
                 1, 100, 0.3f, 1),
-            new Enemy("トライアングル(S)", Utils.EnemyType.Triangle, 42, 5, 0, 7f, 0f, 1f, Utils.Effect.Stream, 7f, 0, 0.5f, 7.0f, Utils.EnemyMoveType.Stay,
+            new Enemy("トライアングル(S)", Utils.EnemyType.Triangle, 42, 5, 0, 7f, 0f, 1f, Utils.Effect.Stream, 7f, 0, 0.6f, 7.0f, Utils.EnemyMoveType.Stay,
                 1, 100, 0.3f, 1),
             new Enemy("トライアングル(S)", Utils.EnemyType.Triangle, 42, 7, 0, 25f, 0f, 1f, Utils.Effect.Lightning, 5f, 0, 0, 7.0f, Utils.EnemyMoveType.Stay,
                 1, 100, 0.3f, 1),
@@ -146,7 +146,7 @@ public static class EnemyData
 
         new Enemy[] // 2-8
         {
-            new Enemy("トライアングル(S)", Utils.EnemyType.Triangle, 100, 15, 0, 25f, 0, 1f, Utils.Effect.Slash, 0f, 4, 0.7f, 5.0f, Utils.EnemyMoveType.Stay,
+            new Enemy("トライアングル(S)", Utils.EnemyType.Triangle, 80, 15, 0, 25f, 0, 1f, Utils.Effect.Slash, 0f, 4, 0.7f, 5.0f, Utils.EnemyMoveType.Stay,
                 1, 85, 0.15f, 1),
             new Enemy("スクエア(S)", Utils.EnemyType.Square, 20, 5, 15, 5f, 5f, 1f,
                 1, 70, 0.2f, 2),
@@ -154,7 +154,7 @@ public static class EnemyData
 
         new Enemy[] // 2-9
         {
-            new Enemy("トライアングル(S)", Utils.EnemyType.Triangle, 75, 9, 0, 25f, 0, 1f, Utils.Effect.Chain, 3f, 0, 0, 5.0f, Utils.EnemyMoveType.Stay,
+            new Enemy("トライアングル(S)", Utils.EnemyType.Triangle, 80, 9, 0, 25f, 0, 1f, Utils.Effect.Chain, 2f, 0, 0, 5.0f, Utils.EnemyMoveType.Stay,
                 1, 80, 0.15f, 1),
         },
 
@@ -162,7 +162,7 @@ public static class EnemyData
         {
             new Enemy("トライアングル(S)", Utils.EnemyType.Triangle, 81, 7, 0, 15f, 0f, 1f, Utils.Effect.Cold, 1f, 0, 0, 7.0f, Utils.EnemyMoveType.Stay,
                 1, 150, 0.3f, 1),
-            new Enemy("トライアングル(S)", Utils.EnemyType.Triangle, 81, 7, 0, 20f, 0f, 1f, Utils.Effect.Hypnosis, 8f, 0, 0.3f, 7.0f, Utils.EnemyMoveType.Stay,
+            new Enemy("トライアングル(S)", Utils.EnemyType.Triangle, 81, 7, 0, 20f, 0f, 1f, Utils.Effect.Hypnosis, 3f, 0, 0.3f, 7.0f, Utils.EnemyMoveType.Stay,
                 1, 150, 0.3f, 1),
             new Enemy("トライアングル(S)", Utils.EnemyType.Triangle, 81, 1, 0, 25f, 0f, 1f, Utils.Effect.Slash, 7f, 4, 0.5f, 7.0f, Utils.EnemyMoveType.Stay,
                 1, 150, 0.3f, 1),
@@ -182,7 +182,7 @@ public static class EnemyData
         {
             new Enemy("トライアングル(S)", Utils.EnemyType.Triangle, 82, 6, 0, 5f, 5f, 1f, Utils.Effect.Poison, 5f, 2, 0, 12.0f, Utils.EnemyMoveType.Slide_s,
                 1, 200, 0.2f, 2),
-            new Enemy("トライアングル(S)", Utils.EnemyType.Triangle, 82, 6, 0, 5f, 5f, 1f, Utils.Effect.Stream, 5f, 0, 0.2f, 12.0f, Utils.EnemyMoveType.Slide_s,
+            new Enemy("トライアングル(S)", Utils.EnemyType.Triangle, 82, 6, 0, 5f, 5f, 1f, Utils.Effect.Stream, 5f, 0, 0.4f, 12.0f, Utils.EnemyMoveType.Slide_s,
                 1, 200, 0.2f, 2),
         },
 
@@ -196,7 +196,7 @@ public static class EnemyData
 
         new Enemy[] // 3-4
         {
-            new Enemy("トライアングル(S)", Utils.EnemyType.Triangle, 120, 10, 0, 12f, 10f, 1f, Utils.Effect.Stream, 7f, 0, 0.2f, Utils.EnemyMoveType.Slide_s,
+            new Enemy("トライアングル(S)", Utils.EnemyType.Triangle, 120, 10, 0, 12f, 10f, 1f, Utils.Effect.Stream, 7f, 0, 0.4f, Utils.EnemyMoveType.Slide_s,
                 1, 130, 0.25f, 2),
             new Enemy("トライアングル(S)", Utils.EnemyType.Triangle, 120, 12, 0, 17f, 10f, 1f, Utils.Effect.Lightning, 7f, 0, 0, Utils.EnemyMoveType.Slide_s,
                 1, 132, 0.15f, 2),
@@ -235,26 +235,26 @@ public static class EnemyData
             new Enemy("ペンタゴン(S)", Utils.EnemyType.Pentagon, 300, 15, 15, 18.0f, 0f, 1f, Utils.Effect.Chain, 3.0f, 0, 0, 9.0f, Utils.EnemyMoveType.Stay,
                 1, 300, 0.3f, 1),
             new Enemy("スクエア(S)", Utils.EnemyType.Square, 100, 10, 30, 10f, 0, 1f,
-                1, 200, 0.2f, 2),
+                1, 200, 0.3f, 2),
         },
 
         new Enemy[] // 3-9
         {
             new Enemy("ペンタゴン(M)", Utils.EnemyType.Pentagon, 600, 18, 30, 25.0f, 7f, 1f, Utils.Effect.Lightning, 5f, 0, 0, 4.0f, Utils.EnemyMoveType.Slide_s,
-                2, 600, 0.3f, 2),
+                2, 600, 0.4f, 2),
         },
 
         new Enemy[] // 3-10
         {
             new Enemy("ペンタゴン(L)", Utils.EnemyType.Pentagon, 1500, 20, 30, 25.0f, 0f, 1f, 2f,
-                3, 1500, 0.4f, 2),
+                3, 1500, 0.6f, 2),
         },
 
         new Enemy[] // 4-1
         {
-            new Enemy("トライアングル(L)", Utils.EnemyType.Triangle, 500, 15, 0, 20.0f, 0f, 2.2f, Utils.Effect.Cold, 1f, 0, 0, Utils.EnemyMoveType.Stay,
+            new Enemy("トライアングル(L)", Utils.EnemyType.Triangle, 450, 12, 0, 20.0f, 0f, 2.3f, Utils.Effect.Cold, 1f, 0, 0, Utils.EnemyMoveType.Stay,
                 3, 8, 0.4f, 3),
-            new Enemy("トライアングル(L)", Utils.EnemyType.Triangle, 500, 15, 0, 20.0f, 0f, 2.2f, Utils.Effect.Stream, 99f, 0, 0.5f, Utils.EnemyMoveType.Stay,
+            new Enemy("トライアングル(L)", Utils.EnemyType.Triangle, 450, 12, 0, 20.0f, 0f, 2.3f, Utils.Effect.Stream, 99f, 0, 0.5f, Utils.EnemyMoveType.Stay,
                 3, 8, 0.4f, 3),
         },
 
@@ -266,25 +266,25 @@ public static class EnemyData
 
         new Enemy[] // 4-3
         {
-            new Enemy("ペンタゴン(S)", Utils.EnemyType.Pentagon, 1000, 7, 30, 30f, 0, 1f, Utils.Effect.Chain, 1f, 0, 0, 0.2f, Utils.EnemyMoveType.Stay,
+            new Enemy("ペンタゴン(S)", Utils.EnemyType.Pentagon, 900, 7, 30, 30f, 0, 1f, Utils.Effect.Chain, 0.5f, 0, 0, 0.3f, Utils.EnemyMoveType.Stay,
                 1, 200, 0.4f, 3),
         },
 
         new Enemy[] // 4-4
         {
-            new Enemy("スクエア(S)", Utils.EnemyType.Square, 50, 10, 30, 20f, 0, 1f, Utils.Effect.Lightning, 5f, 0, 0, 10f, Utils.EnemyMoveType.Stay,
+            new Enemy("スクエア(S)", Utils.EnemyType.Square, 50, 10, 25, 25f, 0, 1f, Utils.Effect.Lightning, 5f, 0, 0, 10f, Utils.EnemyMoveType.Stay,
                 1, 200, 0.2f, 3),
-            new Enemy("ペンタゴン(L)", Utils.EnemyType.Pentagon, 8191, 15, 0, 20.0f, 10f, 1f, Utils.Effect.Slash, 0, 0, 0.7f, 3.0f, Utils.EnemyMoveType.Slide_s,
+            new Enemy("ペンタゴン(L)", Utils.EnemyType.Pentagon, 8191, 15, 20, 20.0f, 10f, 1f, Utils.Effect.Slash, 0, 0, 0.7f, 3.0f, Utils.EnemyMoveType.Slide_s,
                 3, 8, 1f, 3),
         },
 
         new Enemy[] // 4-5
         {
-            new Enemy("スクエア(S)", Utils.EnemyType.Square, 150, 10, 40, 5f, 0, 1f, Utils.Effect.Hypnosis, 5f, 0, 0.5f, 20f, Utils.EnemyMoveType.Stay,
-                1, 200, 0.2f, 3),
-            new Enemy("ペンタゴン(S)", Utils.EnemyType.Pentagon, 200, 7, 30, 15f, 0, 1f, 9.0f,
+            new Enemy("スクエア(S)", Utils.EnemyType.Square, 250, 10, 40, 5f, 0, 1f, Utils.Effect.Hypnosis, 5f, 0, 0.5f, 20f, Utils.EnemyMoveType.Stay,
+                1, 200, 0.3f, 3),
+            new Enemy("ペンタゴン(S)", Utils.EnemyType.Pentagon, 300, 7, 35, 15f, 0, 1f, 9.0f,
                 1, 200, 0.4f, 3),
-            new Enemy("トライアングル(S)", Utils.EnemyType.Triangle, 100, 15, 0, 25.0f, 0f, 1f, Utils.Effect.Poison, 3f, 5, 0.8f, 0.5f, Utils.EnemyMoveType.Stay,
+            new Enemy("トライアングル(S)", Utils.EnemyType.Triangle, 100, 15, 0, 25.0f, 0f, 1f, Utils.Effect.Poison, 3f, 5, 0.8f, 2f, Utils.EnemyMoveType.Stay,
                 1, 8, 0.4f, 3),
         },
 
@@ -292,37 +292,37 @@ public static class EnemyData
         {
             new Enemy("ヘキサゴン(S)", Utils.EnemyType.Hexagon, 500, 15, 40, 35f, 0, 1f,
                 1, 200, 0.2f, 1),
-            new Enemy("スクエア(S)", Utils.EnemyType.Square, 100, 12, 50, 10.0f, 20f, 1f, Utils.Effect.Lightning, 7f, 0, 0, 5.0f, Utils.EnemyMoveType.Stay,
-                1, 8, 0.2f, 3),
+            new Enemy("スクエア(M)", Utils.EnemyType.Square, 120, 12, 50, 10.0f, 20f, 1f, Utils.Effect.Lightning, 7f, 0, 0, 5.0f, Utils.EnemyMoveType.Stay,
+                2, 8, 0.4f, 3),
         },
 
         new Enemy[] // 4-7
         {
-            new Enemy("ヘキサゴン(S)", Utils.EnemyType.Hexagon, 650, 20, 50, 30f, 0, 1.8f, Utils.Effect.Hypnosis, 3f, 0, 0.4f, 12.0f, Utils.EnemyMoveType.Stay,
-                1, 200, 0.2f, 1),
-            new Enemy("トライアングル(M)", Utils.EnemyType.Triangle, 200, 15, 0, 15.0f, 0f, 1f,
+            new Enemy("スクエア(M)", Utils.EnemyType.Square, 250, 15, 70, 15.0f, 0f, 1.5f,
                 2, 8, 0.4f, 3),
+            new Enemy("ヘキサゴン(S)", Utils.EnemyType.Hexagon, 400, 20, 50, 30f, 15f, 1f, Utils.Effect.Hypnosis, 3f, 0, 0.5f, 8.0f, Utils.EnemyMoveType.Slide_s,
+                1, 200, 0.2f, 1),
         },
 
         new Enemy[] // 4-8
         {
-            new Enemy("ヘキサゴン(M)", Utils.EnemyType.Hexagon, 500, 20, 50, 35f, 0, 1f, Utils.Effect.Fire, 4f, 2, 0, 10.0f, Utils.EnemyMoveType.Stay,
+            new Enemy("ヘキサゴン(M)", Utils.EnemyType.Hexagon, 500, 20, 50, 35f, 0, 1f, Utils.Effect.Fire, 5f, 1, 0, 6.0f, Utils.EnemyMoveType.Stay,
                 2, 200, 0.4f, 2),
-            new Enemy("スクエア(M)", Utils.EnemyType.Square, 200, 20, 9999, 15.0f, 10f, 1f, Utils.Effect.Poison, 5f, 3, 0, 10.0f, Utils.EnemyMoveType.Slide_s,
+            new Enemy("スクエア(M)", Utils.EnemyType.Square, 400, 20, 9999, 15.0f, 10f, 1f, Utils.Effect.Poison, 5f, 3, 0, 6.0f, Utils.EnemyMoveType.Slide_s,
                 2, 8, 0.4f, 3),
         },
 
         new Enemy[] // 4-9
         {
-            new Enemy("ヘキサゴン(S)", Utils.EnemyType.Hexagon, 220, 20, 40, 30f, 0, 1f, Utils.Effect.Chain, 2f, 0, 0, 10.0f, Utils.EnemyMoveType.Stay,
+            new Enemy("ヘキサゴン(S)", Utils.EnemyType.Hexagon, 280, 20, 50, 30f, 0, 1f, Utils.Effect.Chain, 2f, 0, 0, 9.0f, Utils.EnemyMoveType.Stay,
                 1, 200, 0.1f, 1),
         },
 
         new Enemy[] // 4-10
         {
-            new Enemy("ヘキサゴン(M)", Utils.EnemyType.Hexagon, 1000, 20, 60, 40f, 0, 1f, 3.0f,
+            new Enemy("ヘキサゴン(M)", Utils.EnemyType.Hexagon, 1500, 20, 80, 40f, 0, 1f, 3.0f,
                 2, 200, 0.5f, 2),
-            new Enemy("ヘキサゴン(L)", Utils.EnemyType.Hexagon, 2000, 30, 60, 45f, 0, 1f, 3.0f,
+            new Enemy("ヘキサゴン(L)", Utils.EnemyType.Hexagon, 2500, 30, 80, 45f, 30f, 1f, Utils.Effect.Poison, 4f, 5, 0, 7.0f, Utils.EnemyMoveType.Slide_s,
                 3, 200, 1f, 2),
         },
 
@@ -418,7 +418,7 @@ public static class EnemyData
 
         new Enemy("スター(S)", Utils.EnemyType.Star, 1, 1, 9999, 3f, Utils.EnemyMoveType.Star,
                 1, 5700, 1f, 4),
-        new Enemy("スター(S)", Utils.EnemyType.Star, 1, 1, 9999, 3f, Utils.Effect.Fire, Utils.EnemyMoveType.Star,
+        new Enemy("スター(S)", Utils.EnemyType.Star, 1, 1, 9999, 3f, Utils.Effect.Hypnosis, Utils.EnemyMoveType.Star,
                 1, 5900, 1f, 4),
         new Enemy("スター(S)", Utils.EnemyType.Star, 1, 1, 9999, 3f, Utils.Effect.Fire, Utils.EnemyMoveType.Star,
                 1, 6100, 1f, 4),

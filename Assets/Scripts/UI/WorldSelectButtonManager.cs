@@ -13,6 +13,12 @@ public class WorldSelectButtonManager : MonoBehaviour
 
     public void OnButtonDown()
     {
+        if(_worldNum == 5 && 5 <= ((PlayerData.STAGE - 1) / Utils.StageSize) + 1)
+        {
+            StartCoroutine(ComingSoon());
+            return;
+        }
+
         if (Utils.WorldSize < _worldNum)
         {
             return;
@@ -54,5 +60,33 @@ public class WorldSelectButtonManager : MonoBehaviour
         yield return HomeManager.RemoveFrame(_worldFrame.gameObject);
         yield return HomeManager.MoveFrame(_stageFrame.gameObject);
         HomeManager.Mooving = false;
+    }
+
+    private IEnumerator ComingSoon()
+    {
+        _text.color = Color.white;
+        for(int i = 0; i < 20; i++)
+        {
+            _text.color -= new Color(0, 0, 0, 0.05f);
+            yield return new WaitForSeconds(0.02f);
+        }
+        _text.text = "～Coming Soon～";
+        for (int i = 0; i < 20; i++)
+        {
+            _text.color += new Color(0, 0, 0, 0.05f);
+            yield return new WaitForSeconds(0.02f);
+        }
+        yield return new WaitForSeconds(3.0f);
+        for (int i = 0; i < 20; i++)
+        {
+            _text.color -= new Color(0, 0, 0, 0.05f);
+            yield return new WaitForSeconds(0.02f);
+        }
+        SetText();
+        for (int i = 0; i < 20; i++)
+        {
+            _text.color += new Color(0, 0, 0, 0.05f);
+            yield return new WaitForSeconds(0.02f);
+        }
     }
 }

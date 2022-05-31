@@ -23,6 +23,8 @@ public class TutorialManager : MonoBehaviour
     [SerializeField] TutorialButtonManager _pentagon; //3-6s
     [SerializeField] TutorialButtonManager _hexagon; //4-6s
 
+    [SerializeField] TutorialButtonManager _comingsoon; //4-10c
+
     private TutorialButtonManager _nowTutorial;
 
     public void DisplayTutorial(int stageNum, bool isStart, int befStage)
@@ -34,6 +36,7 @@ public class TutorialManager : MonoBehaviour
         // クリア時にチュートリアルを出すかどうか
         var cflag = stageNum == befStage && !isStart;
 
+        
         if (!(sflag || cflag))
         {
             return;
@@ -96,6 +99,9 @@ public class TutorialManager : MonoBehaviour
                     break;
                 case 20:
                     _nowTutorial = _efeCustom;
+                    break;
+                case 40:
+                    _nowTutorial = _comingsoon;
                     break;
             }
         }

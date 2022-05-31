@@ -258,7 +258,7 @@ public class EffectSelectManager : MonoBehaviour
             case Utils.Effect.Slash:
                 return "斬撃弾\n\n当たった敵の残りHP\nに応じてダメージを与える\n\n敵の体力が多いほど強い";
             case Utils.Effect.Chain:
-                return "鉄鎖弾\n\n当たった敵を拘束し\n攻撃不能にする\n& 拘束している敵の数\nに応じて自身のATKが上がる\n\n敵が多いほど強くなれる";
+                return "鉄鎖弾\n\n当たった敵を拘束し\n攻撃不能にする\n& 拘束している敵の数\nに応じて自身のATKが上がる\n\n多く弾を撃つ敵に有効";
         }
         return "";
     }
