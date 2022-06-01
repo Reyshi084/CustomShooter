@@ -7,7 +7,7 @@ public class MovieAdsManager : MonoBehaviour
 
     string gameId = "4775519";
     string mySurfacingId = "Interstitial_Android";
-    bool testMode = true;
+    [SerializeField] bool testMode = true;
 
     void Start()
     {

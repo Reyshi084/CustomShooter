@@ -29,6 +29,11 @@ public class OptionManager : MonoBehaviour
         _optionWindow.SetActive(false);
     }
 
+    public void OnPrivacyPolicyButtonDown()
+    {
+        Application.OpenURL("https://drive.google.com/file/d/1b8dGTcqZ_9ib9QyXmK8Y80TMqfwhkRGH/view");
+    }
+
     public void OnResetButtonDown()
     {
         _resetWindow.SetActive(true);
