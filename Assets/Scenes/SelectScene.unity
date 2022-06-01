@@ -1963,7 +1963,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ver 1.0
+  m_Text: Ver 1.2
 --- !u!222 &302907711
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8017,10 +8017,10 @@ Camera:
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
-    x: 0.00006881356
-    y: 0
-    width: 0.9998624
-    height: 1
+    x: 0
+    y: 0.078947365
+    width: 1
+    height: 0.84210527
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
